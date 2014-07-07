@@ -1,4 +1,0 @@
-smpl
-====
-
-mezzanine based sample
