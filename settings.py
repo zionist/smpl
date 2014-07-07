@@ -293,7 +293,7 @@ ROOT_URLCONF = "%s.urls" % PROJECT_DIRNAME
 # or "C:/www/django/templates".
 # Always use forward slashes, even on Windows.
 # Don't forget to use absolute paths, not relative paths.
-TEMPLATE_DIRS = (os.path.join(PROJECT_ROOT, "theme/templates"),)
+TEMPLATE_DIRS = (os.path.join(PROJECT_ROOT, "templates"),)
 
 
 ################
@@ -310,6 +310,7 @@ INSTALLED_APPS = (
     "django.contrib.sitemaps",
     "django.contrib.staticfiles",
     "cartridge.shop",
+    "theme",
     "mezzanine.boot",
     "mezzanine.conf",
     "mezzanine.core",
@@ -319,7 +320,6 @@ INSTALLED_APPS = (
     "mezzanine.pages",
     "mezzanine.galleries",
     "mezzanine.twitter",
-    "theme",
     'debug_toolbar',
     #"mezzanine.accounts",
     #"mezzanine.mobile",
